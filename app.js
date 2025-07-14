@@ -1,5 +1,3 @@
-// app.js
-
 // DOM Elements
 const locationEl = document.getElementById('location');
 const networkEl = document.getElementById('network');
@@ -64,7 +62,7 @@ function startBackgroundMonitoring() {
   setInterval(() => {
     getLocation();
     checkNetwork();
-  }, 30000); // 30s
+  }, 30000);
 }
 
 // Run on Load

@@ -1,11 +1,11 @@
 # 📍 SafeRoute Lite
 
 **Smart Connectivity & Safety Assistant for Travelers**  
-A lightweight web app that monitors signal strength and location in real-time to keep travelers connected and safe — even in remote areas.
+A lightweight web app that monitors signal strength and location in real-time to keep travelers connected and safe, even in remote areas.
 
 ---
 
-## 🔧 Tech Stack
+## Tech Stack
 - HTML, CSS, Vanilla JavaScript
 - Web APIs:  
   - **Geolocation API**  
@@ -14,7 +14,7 @@ A lightweight web app that monitors signal strength and location in real-time to
 
 ---
 
-## 🌐 Key Features
+## Key Features
 
 | Feature | Description | API |
 |--------|-------------|-----|
@@ -25,7 +25,7 @@ A lightweight web app that monitors signal strength and location in real-time to
 
 ---
 
-## ⚙️ How It Works
+##  How It Works
 
 1. On page load, user’s location and network strength are fetched.
 2. Every 30 seconds, background checks run to:
@@ -36,12 +36,10 @@ A lightweight web app that monitors signal strength and location in real-time to
 
 ---
 
-## 📁 Folder Structure
+##  Folder Structure
 
 safroute-lite/
-├── index.html # UI layout
-├── style.css # UI styling
-├── app.js # Core logic
-├── assets/
-│ └── icons/ # (Optional) Icons for visual enhancement
-├── README.md # This file
+├── index.html 
+├── style.css 
+├── app.js 
+├── README.md 
