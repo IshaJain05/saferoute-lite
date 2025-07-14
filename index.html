@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SafeRoute Lite</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>📍 SafeRoute Lite</h1>
+    <p class="subtitle">Smart Safety Assistant for Travelers</p>
+
+    <div class="card">
+      <h2>🔎 Your Current Status</h2>
+      <p><strong>Location:</strong> <span id="location">Fetching...</span></p>
+      <p><strong>Network:</strong> <span id="network">Checking...</span></p>
+      <p><strong>Status:</strong> <span id="alert">Monitoring...</span></p>
+    </div>
+
+    <div class="sos-section">
+      <button id="sosButton">🚨 Send SOS Alert</button>
+      <p class="sos-note">Only use if you're in a weak network area.</p>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

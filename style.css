@@ -1,0 +1,56 @@
+/* style.css */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f2f6fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  background: white;
+  border-radius: 16px;
+  padding: 30px;
+  max-width: 400px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.subtitle {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.card {
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  border-radius: 12px;
+  background: #fafafa;
+  margin-bottom: 20px;
+}
+
+.sos-section {
+  margin-top: 20px;
+}
+
+#sosButton {
+  background-color: #e53935;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#sosButton:hover {
+  background-color: #c62828;
+}
+
+.sos-note {
+  font-size: 12px;
+  color: #777;
+  margin-top: 8px;
+}
