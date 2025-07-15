@@ -1,6 +1,6 @@
 # 📍 SafeRoute Lite
 
-**Smart Connectivity & Safety Assistant for Travelers**  
+**Smart Connectivity & Safety Assistant for Travelers** 
 A lightweight web app that monitors signal strength and location in real-time to keep travelers connected and safe, even in remote areas.
 
 ---
@@ -25,14 +25,18 @@ A lightweight web app that monitors signal strength and location in real-time to
 
 ---
 
+
 ##  How It Works
 
-1. On page load, user’s location and network strength are fetched.
+1. On page load, the user’s location and network strength are fetched.
 2. Every 30 seconds, background checks run to:
    - Re-evaluate signal status.
-   - Trigger alerts when connection is poor.
-3. A red warning is shown when signal is weak.
-4. SOS button allows users to send coordinates manually.
+   - Trigger alerts when the connection is poor.
+3. A red warning is shown when the signal is weak.
+4. The SOS button allows users to send coordinates manually. (The SOS button is shown here as a reference to the alert being sent to the selected users such as the travel agent, or anyone in the emergency contact.)
+
+SafeRoute Lite is not just a web app — it's a safety companion for travelers. 
+By combining modern web APIs with practical features, it alerts users about low connectivity, suggests nearest network-safe zones, and ensures help is never out of reach, even in the background.
 
 ---
 
